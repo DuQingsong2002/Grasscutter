@@ -887,7 +887,7 @@ public class Player {
     public boolean hasSentLoginPackets() {
         return hasSentLoginPackets;
     }
-    
+
     public void addAvatar(Avatar avatar, boolean addToCurrentTeam) {
         boolean result = getAvatars().addAvatar(avatar);
 
